@@ -6,7 +6,8 @@ I take no responsibility for the application of the code provided here or any co
 
 ## Compiler lab3 for minijava
 For compiler 3, refer to the makefile
-run make all for all testcases, the A.java is not correct
+run make all for all testcases, the output from interpreting A.java is not correct due to how we handle boolean values in the value stack.
+Feel free to push a fix
 
 ## Operating system lab3
 Run the make, then ./filesystem, then format and it will work as intended
