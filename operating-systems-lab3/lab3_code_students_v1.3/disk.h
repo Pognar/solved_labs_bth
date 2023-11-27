@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <stdint.h>
 
 #ifndef __DISK_H__
 #define __DISK_H__
@@ -8,12 +9,14 @@
 #define BLOCK_SIZE 4096
 #define DEBUG false
 
-class Disk {
+class Disk
+{
 private:
     std::fstream diskfile;
     const unsigned no_blocks = 2048;
     const unsigned disk_size = BLOCK_SIZE * no_blocks;
-    bool disk_file_exists (const std::string& name);
+    bool disk_file_exists(const std::string &name);
+
 public:
     Disk();
     ~Disk();
