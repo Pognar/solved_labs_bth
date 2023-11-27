@@ -1,0 +1,66 @@
+E.main
+block_0
+iconst 4
+iconst 2
+imul
+istore _t0
+iload _t0
+iconst 10
+iadd
+istore _t1
+iconst 2
+iconst 6
+imul
+istore _t2
+iload _t1
+iload _t2
+isub
+istore _t3
+iconst 4
+iconst 1
+isub
+istore _t4
+iload _t4
+iconst 2
+imul
+istore _t5
+iload _t5
+iconst 2
+idiv
+istore _t6
+iload _t3
+iload _t6
+iadd
+istore _t7
+iload _t7
+print
+iload TRUE
+inot
+istore _t8
+iload _t8
+iload FALSE
+iand
+istore _t9
+iload TRUE
+iload _t9
+ieq
+istore _t10
+iconst 10
+iconst 1
+igt
+istore _t11
+iconst 1
+iconst 10
+ilt
+istore _t12
+iload _t11
+iload _t12
+iand
+istore _t13
+iload _t10
+iload _t13
+ior
+istore _t14
+iload _t14
+print
+exit

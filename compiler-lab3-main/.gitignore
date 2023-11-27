@@ -1,0 +1,13 @@
+.vscode
+compiler
+*.plist
+*.yml
+lex.yy.c
+parser.output
+parser.tab.cc
+parser.tab.hh
+parser.tab.o
+stack.hh
+tree.dot
+.DS_Store
+CFG/.DS_Store
