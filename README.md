@@ -15,5 +15,9 @@ Feel free to push a fix
 ## Operating system lab1
 Task 11 is not correct and according to feedback my solution to the dining professors was ok, not completely scalable.
 
+## Operating system lab2
+Manually compile each of the files with gcc and run the tests.
+Compile with the -O2 flag.
+
 ## Operating system lab3
 Run the make, then ./filesystem, then format and it will work as intended
