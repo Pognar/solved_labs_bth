@@ -21,3 +21,11 @@ Compile with the -O2 flag.
 
 ## Operating system lab3
 Run the make, then ./filesystem, then format and it will work as intended
+
+## Algorithms lab1
+A set of sorting algorithms made in c++
+
+## Datorteknik lab2
+This lab is translating a C-program that counts in binary to assembler code.
+The translation is in the S-file
+
